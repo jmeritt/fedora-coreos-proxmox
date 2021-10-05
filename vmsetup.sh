@@ -98,7 +98,7 @@ qm set ${TEMPLATE_VMID} --description "Fedora CoreOS - Template
 Creation date : ${template_vmcreated}
 "
 
-qm set ${TEMPLATE_VMID} --net0 virtio,bridge=vmbr1
+qm set ${TEMPLATE_VMID} --net0 virtio,bridge=vmbr0
 #qm set ${TEMPLATE_VMID} --net1 virtio,bridge=vmbr1
 
 echo -e "\nCreate Cloud-init vmdisk..."
