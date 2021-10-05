@@ -18,7 +18,7 @@ setup_fcoreosct()
         local CT_VER=0.7.0
         local ARCH=x86_64
         local OS=unknown-linux-gnu # Linux
-        local DOWNLOAD_URL=https://github.com/coreos/butane/releases/download
+        local DOWNLOAD_URL=https://github.com/coreos/fcct/releases/download
  
         [[ -x /usr/local/bin/fcos-ct ]]&& [[ "x$(/usr/local/bin/fcos-ct --version | awk '{print $NF}')" == "x${CT_VER}" ]]&& return 0
         echo "Setup Fedora CoreOS config transpiler..."
